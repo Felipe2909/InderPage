@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias | Inder Túquerres</title>
+  <link rel="icon" href="imagenes/lock.png">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300;400;700&family=Share+Tech&display=swap"
+    rel="stylesheet">
+
+  <!-- Iconos -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <section class="adminup">
+      <!-- HEADER -->
+      <header class="header">
+        <figure class="logo">
+          <img class="logoinder" src="imagenes/logo-Sin-Fondo.png" alt="Logo Inder Túquerres">
+        </figure>
+
+        <!-- Botón para móviles -->
+        <div class="menu-toggle" id="menu-toggle">
+          ☰
+        </div>
+
+        <nav class="navbar" id="inicio">
+          <ul class="navbar-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+              <div class="submenu">
+                <a href="index.html"><i>Ir a la pantalla principal</i></a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="admin.html">Cerrar Sesion</a>
+              <div class="submenu">
+                <a href="admin.html"><i>Salir</i></a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <div class="inder-admin-panel">
+      <!-- ENCABEZADO -->
+      <div class="inder-admin-header">
+        <h1 class="inder-admin-title">Panel Administrador <i class="bi bi-shield-lock-fill"></i></h1>
+        <p class="inder-admin-subtitle">Bienvenido al panel de control de InderTúquerres</p>
+      </div>
+
+      <!-- SECCION DE NOTICIAS -->
+      <section class="inder-admin-section" id="admin-noticias">
+        <h2 class="inder-admin-section-title">Ediciones rapidas</h2>
+        <div class="inder-admin-cards">
+          <article class="inder-admin-card">
+            <h3 class="inder-admin-card-title">Subpagina Noticias</h3>
+            <p class="inder-admin-card-text">Actualiza las noticias a las mas recientes.</p>
+            <button class="inder-admin-card-button">Editar</button>
+          </article>
+          <article class="inder-admin-card">
+            <h3 class="inder-admin-card-title">Subpagina Galería</h3>
+            <p class="inder-admin-card-text">Edita el texto o las imagenes de la Galería.</p>
+            <button class="inder-admin-card-button">Editar</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECCION DE EVENTOS -->
+      <section class="inder-admin-section" id="admin-eventos">
+        <h2 class="inder-admin-section-title">Recordatorios</h2>
+        <ul class="inder-admin-list">
+          <li class="inder-admin-list-item">Gestionar espacio para el 29 de Septiembre</li>
+          <li class="inder-admin-list-item">Enviar PDF de la resolucion</li>
+          <li class="inder-admin-list-item">Contestar correos de solicitud</li>
+          <button class="inder-admin-card-button">Editar</button>
+        </ul>
+      </section>
+
+      <!-- SECCION DE ESTADISTICAS -->
+      <section class="inder-admin-section" id="admin-estadisticas">
+        <h2 class="inder-admin-section-title">Estadísticas</h2>
+        <div class="inder-admin-stats">
+          <div class="inder-admin-stat">
+            <h3>Deportistas Registrados</h3>
+            <p>120</p>
+          </div>
+          <div class="inder-admin-stat">
+            <h3>Eventos Programados</h3>
+            <p>10</p>
+          </div>
+          <div class="inder-admin-stat">
+            <h3>Medallas Ganadas</h3>
+            <p>8</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v23.0"></script>
+</body>
+
+</html>
