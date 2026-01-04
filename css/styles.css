@@ -529,12 +529,12 @@ footer {
   }
 
   footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
   }
 
   .copyright {
-    grid-column: span 2;
+    grid-column: span 1;
     font-size: 13px;
   }
 }
@@ -876,4 +876,5 @@ footer {
     object-fit: cover;
     border-radius: 12px;
 }
+
 
