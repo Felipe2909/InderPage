@@ -476,6 +476,14 @@ footer {
     text-align: center;
   }
 
+  footer img{
+    max-width: 300px;
+  }
+
+  footer iframe{
+    max-width: 300px;
+  }
+    
   .copyright {
     grid-column: span 1;
     font-size: 12px;
@@ -876,5 +884,6 @@ footer {
     object-fit: cover;
     border-radius: 12px;
 }
+
 
 
