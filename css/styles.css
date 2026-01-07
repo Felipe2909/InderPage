@@ -422,7 +422,7 @@ footer {
 
 /* Dispositivos pequeños (teléfonos ≤576px) */
 @media (max-width: 576px) {
- header img {
+  header img {
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -435,11 +435,9 @@ footer {
     gap: 1rem;
     padding: 0;
     align-items: center;
-    
   }
 
   nav li ul, 
-  .submenu, 
   header ul li:hover ul { 
     position: relative !important; 
     top: 0 !important;
@@ -452,6 +450,15 @@ footer {
     text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+  }
+
+  .submenu {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   .texto-bienvenida h1 {
@@ -899,6 +906,7 @@ footer {
     object-fit: cover;
     border-radius: 12px;
 }
+
 
 
 
