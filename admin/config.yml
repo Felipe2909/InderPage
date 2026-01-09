@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: felipemora/inder-page
+  repo: Felipe2909/InderPage
   branch: main
 
 media_folder: "assets/media"
@@ -18,4 +18,5 @@ collections:
       - { label: "Fecha", name: "date", widget: "datetime" }
       - { label: "Imagen", name: "image", widget: "image" }
       - { label: "Contenido", name: "body", widget: "markdown" }
+
 
